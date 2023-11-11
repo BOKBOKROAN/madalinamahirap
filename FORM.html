@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="form.css">
+    <title>Survey Form</title>
+</head>
+<body>
+    <div class="container ">
+        <header class="header">
+            <h1 id="title">
+                Survey from Group8/12/ICT/BABBAGE
+            </h1>
+            <p id="description">
+                Thank you for sharing your knowledge about java
+            </p>
+        </header>
+        <form action="" id="survey-form">
+
+            <!-- Text section -->
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" class="formControl" placeholder="Enter your name" required>
+            </div>
+            <!-- end of text section -->
+
+            <!-- Type Email section -->
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" class="formControl" placeholder="Enter your Email" required>
+            </div>
+            <!-- end of Email section -->
+
+            <!-- Type Number section -->
+            <div class="form-group">
+                <label for="phone">Do you know anything about the JavaScript language?</label>
+                <input type="number" name="phone" id="phone" class="formControl" placeholder="enter you answer" required>
+            </div>
+            <!-- end of Number section -->
+
+            <!-- Type Number section -->
+            <div class="form-group">
+                <label for="address">Do you think multi-threading will facilitate the functioning of running devices or language? <span class="clue"></span></label>
+                <input type="text" name="address" id="address" class="formControl" placeholder="Enter your answer" required>
+            </div>
+            <!--  end of number section -->
+
+            <!-- select section -->
+            <div class="form-group">
+                <p id="quest">what percentage do you think you know about the Java language and multi-threading?
+                    if none of the percentages mentioned we provide a blank space to know your answer
+                </p>
+                <Var><input type="text" name="address" id="address" class="formControl" placeholder="Enter your answer" required></Var>
+                <select name="role" id="dropdown" class="formControl">
+                    <option value disabled selected >Select percentage</option>
+                    <option value="percentage">10%</option>
+                    <option value="percentage">20%</option>
+                    <option value="percentage">50%</option>
+                    <option value="percentage">100^</option>
+                </select>
+            </div>
+            <!-- end of select section -->
+
+            <!-- radio button section -->
+            <div class="form-group">
+                <label for="address">Do you think multi-threading is Important in any programming language? <span class="clue"></span></label>
+                <input type="text" name="address" id="address" class="formControl" placeholder="Enter your answer" required>
+        
+            <div class="form-group">
+                <p id="quest">what do you want to be? </p>
+                <label for="">
+                    <input type="checkbox" name="prefer" class="checkbox" value="front-end-dev"> Web developer
+                </label>
+                <label for="">
+                    <input type="checkbox" name="prefer" class="checkbox" value="back-end-dev"> expert on programming language
+                </label>
+                <label for="">
+                    <input type="checkbox" name="prefer" class="checkbox" value="app-dev">  Android App Developer
+                </label>
+                <label for="">
+                    <input type="checkbox" name="prefer" class="checkbox" value="soft-engineering"> Software Engineering
+                </label>
+                <label for="">
+                    <input type="checkbox" name="prefer" class="checkbox" value="other"> Other
+                </label>
+            </div>
+            <!-- End of checkbox section -->
+
+            <!-- Textarea section -->
+            <div class="form-group">
+                <p id="quest">Another thought's About javascript in multi-threading</p>
+                <textarea name="feedback"  cols="30" rows="5"  id="feedback" class="textarea" placeholder="Enter your comment here..."></textarea>
+            </div>
+            
+            <div class="form-group">
+               <button><h1><a href="intro.html">submit</a></h1></button>
+               
+            </div>
+        </form>
+    </div>
+</body>
+</html>
